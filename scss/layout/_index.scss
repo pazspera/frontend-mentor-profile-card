@@ -1,0 +1,13 @@
+body{
+    background-color: $primary;
+    background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -35% -60%, 150% 115%;
+}
+
+@media(min-width: 1000px){
+    body{
+        background-position: 140% -50%,-30% 120%; 
+    }
+}
+

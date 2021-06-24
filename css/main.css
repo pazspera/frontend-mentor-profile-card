@@ -47,18 +47,6 @@ h6 {
   font-family: serif;
 }
 
-.capital-letter {
-  -webkit-initial-letter: 3;
-  initial-letter: 3;
-}
-
-.capital-letter::first-letter {
-  float: left;
-  font-size: 6rem;
-  line-height: 0;
-  margin: 0.1em 0.1em 0.1em 0;
-}
-
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -85,9 +73,9 @@ h6 {
 }
 
 .image--shadow {
-  box-shadow: 25px 25px 0px 0px red;
-  -webkit-box-shadow: 25px 25px 0px 0px red;
-  -moz-box-shadow: 25px 25px 0px 0px red;
+  box-shadow: 25px 25px 0px 0px #19a2ae;
+  -webkit-box-shadow: 25px 25px 0px 0px #19a2ae;
+  -moz-box-shadow: 25px 25px 0px 0px #19a2ae;
 }
 
 /*  
@@ -130,4 +118,16 @@ Bootstrap: Override colores navbar
     }
 }
 */
+body {
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -35% -60%, 150% 115%;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-position: 140% -50%,-30% 120%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
