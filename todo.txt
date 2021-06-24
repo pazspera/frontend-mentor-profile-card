@@ -1,0 +1,6 @@
+- Las img de bg en main quedan demasiado separadas en 375px. En vez de usar porcentajes, probar usando top, bottom, etc. Porcentajes es demasiado impredecible en base al tamaño del dispositivo
+
+
+OTROS FRONTEND MENTOR
+- El violeta con la card de dos columnas, revisar el max-width porque achicando un poco la pantalla la img queda muy chica
+- Revisar posicionamiento vertical del grid component, la atribución no queda bien
