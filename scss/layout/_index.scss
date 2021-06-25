@@ -1,5 +1,4 @@
 body{
-    
     background-color: $primary;
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: bottom 40vh right 40vw, top 40vh left 40vw;
@@ -13,7 +12,7 @@ body{
 }
 
 main{
-    height: 98vh;
+    height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

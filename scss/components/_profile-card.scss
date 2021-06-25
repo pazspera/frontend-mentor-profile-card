@@ -3,6 +3,9 @@
     max-width: 420px;
     background-color: $white;
     border-radius: 20px;
+    box-shadow: 18px 39px 39px -16px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 18px 39px 39px -16px rgba(0,0,0,0.21);
+    -moz-box-shadow: 18px 39px 39px -16px rgba(0,0,0,0.21);
 
     &__grid{
         display: grid;
@@ -12,6 +15,8 @@
 
     &__header{
         background-color: $primary;
+        background-image: url(../images/bg-pattern-card.svg);
+        background-repeat: round;
         border-top-left-radius: 18px;
         border-top-right-radius: 18px;
         grid-column: 1/-1;
@@ -43,12 +48,12 @@
 
     &__location{
         margin-top: 0;
-        margin-bottom: 1.4rem;
+        margin-bottom: 1.5rem;
     }
 
     &__name{
         margin-bottom: 0.25rem;
-        margin-top: 1.4rem;
+        margin-top: 1.5rem;
     }
 }
 
