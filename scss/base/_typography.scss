@@ -1,15 +1,17 @@
 body {
-    font-family: $font-text;
+    font-family: $font-main;
     line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $font-title;
+
+.stats__number {
+    font-weight: 700;
+    font-size: $size5;
+    color: $secondary;
 }
 
-
+.stats__text{
+    font-size: $size7;
+    letter-spacing: 0.15em;
+    color: $dark-gray;
+}
