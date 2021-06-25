@@ -95,14 +95,14 @@ Bootstrap: Override colores navbar
 */
 body {
   background-color: #19a2ae;
-  background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: -45% -90%, 150% 190%;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: bottom 40vh right 40vw, top 40vh left 40vw;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 1000px) {
   body {
-    background-position: 150% -80%,-40% 160%;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
   }
 }
 
