@@ -50,12 +50,77 @@ body {
   color: #969696;
 }
 
+.info__name {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.info__age {
+  font-weight: 400;
+}
+
+.info__age,
+.info__location {
+  color: #969696;
+}
+
 .profile-card {
-  border: 2px solid;
   width: 90%;
   max-width: 420px;
   background-color: #fff;
   border-radius: 20px;
+}
+
+.profile-card__header, .profile-card__content {
+  height: 10rem;
+}
+
+.profile-card__header {
+  background-color: #19a2ae;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.profile-card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-card__img {
+  width: 100px;
+  border-radius: 50%;
+  outline: 5px solid #fff;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__location {
+  margin-top: 0;
+}
+
+.info__name {
+  margin-bottom: 0;
 }
 
 .stats {

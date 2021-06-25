@@ -1,9 +1,47 @@
 .profile-card{
-    border: 2px solid;
     width: 90%;
     max-width: 420px;
     background-color: $white;
     border-radius: 20px;
+
+    &__header,
+    &__content{
+        height: 10rem;
+    }
+
+    &__header{
+        background-color: $primary;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__img{
+        width: 100px;
+        border-radius: 50%;
+        outline: 5px solid $white;
+    }
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;        
+
+    &__location{
+        margin-top: 0;
+    }
+
+    &__name{
+        margin-bottom: 0;
+    }
 }
 
 .stats{

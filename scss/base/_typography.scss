@@ -3,7 +3,6 @@ body {
     line-height: 1.6;
 }
 
-
 .stats__number {
     font-weight: 700;
     font-size: $size5;
@@ -13,5 +12,19 @@ body {
 .stats__text{
     font-size: $size7;
     letter-spacing: 0.15em;
+    color: $dark-gray;
+}
+
+.info__name{
+    font-weight: 700;
+    font-size: $size5;
+}
+
+.info__age{
+    font-weight: 400;
+}
+
+.info__age, 
+.info__location{
     color: $dark-gray;
 }
