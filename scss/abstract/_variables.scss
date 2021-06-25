@@ -3,8 +3,9 @@ $black: #000;
 $white: #fff;
 $primary: hsl(185, 75%, 39%);
 $secondary: hsl(229, 23%, 23%);
-$dark-gray-blue: hsl(227, 10%, 46%);
+$dark-gray-blue: hsl(227, 36%, 34%);
 $dark-gray: hsl(0, 0%, 59%);
+$light-gray: lighten($dark-gray, 25%);
 
 // Fuentes
 $font-main: 'Kumbh Sans', sans-serif;
