@@ -1,6 +1,6 @@
 .profile-card{
     width: 90%;
-    max-width: 420px;
+    max-width: 400px;
     background-color: $white;
     border-radius: 20px;
     box-shadow: 18px 39px 39px -16px rgba(0,0,0,0.21);
@@ -10,7 +10,7 @@
     &__grid{
         display: grid;
         grid-template-columns: repeat(8, 0.5fr);
-        grid-template-rows: repeat(4, 3.5rem);
+        grid-template-rows: repeat(4, 3rem);
     }
 
     &__header{

@@ -53,7 +53,7 @@ body {
 
 .profile-card {
   width: 90%;
-  max-width: 420px;
+  max-width: 400px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 18px 39px 39px -16px rgba(0, 0, 0, 0.21);
@@ -66,8 +66,8 @@ body {
   display: grid;
   -ms-grid-columns: (0.5fr)[8];
       grid-template-columns: repeat(8, 0.5fr);
-  -ms-grid-rows: (3.5rem)[4];
-      grid-template-rows: repeat(4, 3.5rem);
+  -ms-grid-rows: (3rem)[4];
+      grid-template-rows: repeat(4, 3rem);
 }
 
 .profile-card__header {
@@ -209,7 +209,7 @@ body {
 
 @media (min-width: 1000px) {
   body {
-    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+    background-position: bottom 35vh right 45vw, top 50vh left 50vw;
   }
 }
 
