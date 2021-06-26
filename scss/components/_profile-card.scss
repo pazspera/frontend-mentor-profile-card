@@ -33,7 +33,7 @@
     &__img{
         width: 100px;
         border-radius: 50%;
-        outline: 5px solid $white;
+        border: 5px solid $white;
         z-index: 10;
         grid-column: 4/6;
         grid-row: 3/5;
